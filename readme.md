@@ -52,20 +52,31 @@ The Customer Order Management System consists of the Order Management App, Purch
 
    - Create Record that contains excel file that want to be imported
    - After creating record then click the convert button at proccess management feature on kintone
+   - After succesfully proccess management convert is finished then the excel data will be created on Purchase Order app
 
-   ![Upload Excel to Record](Images/Proccess Management.png)
+   ![ProccessManagementButton](images/Proccess%20Management.png)
 
    **Limitation**
 
-   - Cannot convert excel attachments that are
+   - Cannot convert excel attachments that are not same with current purchase order format
 
 2. **Intelligently Recommend Assignee**:
 
-   - Button to assign tasks to the purchasing department member with the least workload and highest expertise.
-   - Based on data from the Purchasing Department App.
+   - Button to assign tasks to the purchasing department member with the least workload, highest expertise and score of their past performance.
+   - all the assignee data (current workload, past expertise, and past performance) is stored in Master Assignee app
+
+   ![SuggestionAssignee](images/Proccess%20Management.png)
+
+   - When Button clicked then the best suggestion will appear
+
+   ![SuggestionPopUp](images/Suggestion%20PopUp.png)
+
    - Users can manually override the auto-assignment by selecting from a dropdown list.
 
-   ![Assignee Suggestion](screenshots/autosuggest-assignee.png)
+   ![ManualPopUp](images/InputAssignee.png)
+
+   - After succesfully assigned the record then success pop up wil appear
+     ![SuccessPopUp](images/Success%20Assignee.png)
 
 3. **Update Purchase Order Status & Auto Calculate Deadline Dates**:
 
@@ -75,27 +86,27 @@ The Customer Order Management System consists of the Order Management App, Purch
    - Update dates and days spent between processes as they advance.
    - Workload of the assignee is adjusted accordingly when processes are resolved.
 
-     ![Auto Deadline](screenshots/auto-deadline.png)
+     ![Auto Deadline](images/autoDeadline.png)
 
 4. **Auto Reminders**:
 
-   - Send reminders at 8 AM one day before the deadline.
+   - Send reminders at 0 AM the day before the deadline.
 
 5. **Visual Aids**:
 
    - Displaying Performance Measurement Charts
 
-   ![Bar Chart](screenshots/bar-chart.png)
-   ![Pie Chart](screenshots/pie-chart.png)
+   ![BarChart](images/barChart.png)
+   ![LineChart](images/TimeTaken.png)
+   ![PieChart](images/PieChart.png)
+   **Non-functional Requirements**:
 
-**Non-functional Requirements**:
-
-1. **Performance**:
+6. **Performance**:
 
    - The app should handle up to unlimited users, as per Kintone capabilities.
    - Excel parsing using the ExcelJS library should complete within less than 5 seconds per file.
 
-2. **Usability**:
+7. **Usability**:
    - User-friendly interface for uploading and managing files.
 
 ---
