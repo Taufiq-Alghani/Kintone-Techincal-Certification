@@ -54,7 +54,7 @@ The Customer Order Management System consists of the Order Management App, Purch
    - After creating record then click the convert button at proccess management feature on kintone
    - After succesfully proccess management convert is finished then the excel data will be created on Purchase Order app
 
-   ![ProccessManagementButton](images/Proccess%20Management.png)
+   ![ProccessManagementButton](Images/Proccess%20Management.png)
 
    **Limitation**
 
@@ -65,18 +65,18 @@ The Customer Order Management System consists of the Order Management App, Purch
    - Button to assign tasks to the purchasing department member with the least workload, highest expertise and score of their past performance.
    - all the assignee data (current workload, past expertise, and past performance) is stored in Master Assignee app
 
-   ![SuggestionAssignee](images/Proccess%20Management.png)
+   ![SuggestionAssignee](Images/Proccess%20Management.png)
 
    - When Button clicked then the best suggestion will appear
 
-   ![SuggestionPopUp](images/Suggestion%20PopUp.png)
+   ![SuggestionPopUp](Images/Suggestion%20PopUp.png)
 
    - Users can manually override the auto-assignment by selecting from a dropdown list.
 
-   ![ManualPopUp](images/InputAssignee.png)
+   ![ManualPopUp](Images/InputAssignee.png)
 
    - After succesfully assigned the record then success pop up wil appear
-     ![SuccessPopUp](images/Success%20Assignee.png)
+     ![SuccessPopUp](Images/Success%20Assignee.png)
 
 3. **Update Purchase Order Status & Auto Calculate Deadline Dates**:
 
@@ -86,7 +86,7 @@ The Customer Order Management System consists of the Order Management App, Purch
    - Update dates and days spent between processes as they advance.
    - Workload of the assignee is adjusted accordingly when processes are resolved.
 
-     ![Auto Deadline](images/autoDeadline.png)
+     ![Auto Deadline](Images/autoDeadline.png)
 
 4. **Auto Reminders**:
 
@@ -96,9 +96,10 @@ The Customer Order Management System consists of the Order Management App, Purch
 
    - Displaying Performance Measurement Charts
 
-   ![BarChart](images/barChart.png)
-   ![LineChart](images/TimeTaken.png)
-   ![PieChart](images/PieChart.png)
+   ![BarChart](Images/barChart.png)
+   ![LineChart](Images/TimeTaken.png)
+   ![PieChart](Images/PieChart.png)
+
    **Non-functional Requirements**:
 
 6. **Performance**:
