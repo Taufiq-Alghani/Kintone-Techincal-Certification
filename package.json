@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "eslint": "^8.56.0",
+    "eslint-plugin-import": "^2.29.1",
+    "prettier": "^3.3.2"
+  },
+  "devDependencies": {
+    "@cybozu/eslint-config": "^23.0.0"
+  }
+}
